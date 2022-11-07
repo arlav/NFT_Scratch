@@ -1,6 +1,9 @@
+
 dependencies:
-  - Openzeppelin/openzeppelin-contracts@3.4.0
+  - smartcontractkit/chainlink-brownie-contracts@1.1.1
+  - OpenZeppelin/openzeppelin-contracts@3.4.0
 compiler:
   solc:
     remappings:
-      '@Openzeppelin=Openzeppelin/openzeppelin-contracts@3.4.0'
+      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@1.1.1'
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0'
