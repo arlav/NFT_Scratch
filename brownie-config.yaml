@@ -1,0 +1,6 @@
+dependencies:
+  - Openzeppelin/openzeppelin-contracts@3.4.0
+compiler:
+  solc:
+    remappings:
+      '@Openzeppelin=Openzeppelin/openzeppelin-contracts@3.4.0'
