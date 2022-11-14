@@ -60,7 +60,7 @@ contract ArchNFT is ERC721, VRFConsumerBase {
         uint256 newItemId = tokenCounter;
         _safeMint(ArchNFTOwner, newItemId);
         _setTokenURI(newItemId, tokenURI);
-        Style archStyle = Style(randomNumber % 3); //@dev use the dvider left over from randomnumber to 3 to select an architectural style from the enum style
+        Style archStyle = Style(randomNumber % 3); //@dev use the remainder left over from the division randomnumber to 3 to select an architectural style from the enum style
 
 
         //tokenCounter++;
