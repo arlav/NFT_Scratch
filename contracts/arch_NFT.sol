@@ -9,8 +9,7 @@ contract ArchNFT is ERC721, VRFConsumerBase {
     bytes32 internal keyHash;
     uint256 public fee;
     uint256 public tokenCounter;
-    //int256 public tokenIdToStyle; //delete
-    //int256 public requestIdtoTokenId; //delete
+
 
 
     //@dev enumerate architectural styles for the NFT - this gets chosen at mint time
@@ -72,8 +71,7 @@ contract ArchNFT is ERC721, VRFConsumerBase {
         tokenCounter = tokenCounter + 1;
 
 
-        //tokenCounter++;
-        //delete requestIdToSender[requestId]
+
     }
 
 
